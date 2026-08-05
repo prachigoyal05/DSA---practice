@@ -3,7 +3,7 @@ def find_missingno(arr,N):
     xor2 = 0
     n = len(arr)
 
-    for i in range(N-1):
+    for i in range(n):
         xor2^=arr[i]
         xor1^=(i+1)
 
