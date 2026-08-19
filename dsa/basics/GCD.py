@@ -11,6 +11,6 @@ def GCD(a,b):
 
     return a
 
-a = 5
-b = 10
+a = 3
+b = 9
 print(GCD(a,b))
